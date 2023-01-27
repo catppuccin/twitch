@@ -192,6 +192,7 @@
     }
     
     :root {
+        --color-background-button-text-default: var(--ctp-crust);
         --color-text-input-placeholder: var(--ctp-text);
         --color-border-input: var(--ctp-base);
         --color-text-base: var(--ctp-subtext1);
