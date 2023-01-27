@@ -41,6 +41,8 @@
 2. Then install with Stylus ([click on the link](https://raw.githubusercontent.com/mustafakhalaf-git/twitch/main/src/TwitchCatppuccin.user.css)):
 3. Choose Your accent color by Setting Theme in Stylus Options
 
+NOTE: for latte to work correctly, it's better to use light theme
+
 ## 💝 Thanks to
 
 - [mustafakhalaf-git](https://github.com/mustafakhalaf-git)
