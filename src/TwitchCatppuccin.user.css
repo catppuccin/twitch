@@ -183,7 +183,17 @@
       background-color: var(--ctp-mantle);
     }
     
+    .gzYMLv {
+      color: var(--ctp-text);
+    }
+    
+    .igzOaC {
+      color: var(--ctp-text);
+    }
+    
     :root {
+        --color-text-input-placeholder: var(--ctp-text);
+        --color-border-input: var(--ctp-base);
         --color-text-base: var(--ctp-subtext1);
         --color-text-alt: var(--ctp-subtext1);
         --color-text-alt-2: var(--ctp-text);
