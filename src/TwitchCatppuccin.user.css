@@ -191,13 +191,19 @@
       color: var(--ctp-text);
     }
     
-    :root {
+    .footer {
+        background: var(--ctp-crust);
+    }
+    
+    .tw-root--theme-dark, :root .tw-root--theme-light, :root {
         --color-background-button-text-default: var(--ctp-crust);
+        --color-background-float: var(--ctp-crust);
         --color-text-input-placeholder: var(--ctp-text);
         --color-border-input: var(--ctp-base);
         --color-text-base: var(--ctp-subtext1);
         --color-text-alt: var(--ctp-subtext1);
         --color-text-alt-2: var(--ctp-text);
+        --color-background-alt-2: var(--ctp-crust);
         --color-text-tag: var(--ctp-text);
         --color-background-button-secondary-default: var(--ctp-crust);
         --color-background-tag-default: var(--ctp-mantle);
