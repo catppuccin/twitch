@@ -2,7 +2,7 @@
 @name Twitch Catppuccin
 @namespace      github.com/catppuccin/twitch
 @homepageURL https://github.com/catppuccin/twitch
-@version        1.0.0
+@version        1.0.1
 @description    Soothing pastel theme for Twitch
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
@@ -44,7 +44,6 @@
             --ctp-crust: #dce0e8;
             --ctp-shadow: #dbdfef;
         }
-    
         if (flavour=="Frappe") {
             --ctp-rosewater: #f2d5cf;
             --ctp-flamingo: #eebebe;
@@ -74,7 +73,6 @@
             --ctp-crust: #232634;
             --ctp-shadow: #010409;
         }
-    
         if (flavour=="Macchiato") {
             --ctp-rosewater: #f4dbd6;
             --ctp-flamingo: #f0c6c6;
@@ -104,7 +102,6 @@
             --ctp-crust: #181926;
             --ctp-shadow: #010409;
         }
-    
         if (flavour=="Mocha") {
             --ctp-rosewater: #f5e0dc;
             --ctp-flamingo: #f2cdcd;
@@ -134,10 +131,7 @@
             --ctp-crust: #11111b;
             --ctp-shadow: #010409;
         }
-    
-    }
-    
-        
+    }    
     .tw-root--theme-dark {
         if (darktheme=="Latte")     { colourscheme(Latte) }
         if (darktheme=="Frappe")    { colourscheme(Frappe) }
@@ -150,56 +144,72 @@
         if (lighttheme=="Macchiato") { colourscheme(Macchiato) }
         if (lighttheme=="Mocha")     { colourscheme(Mocha) }
     }
-    
     .tw-root--theme-dark body {
       background-color: var(--ctp-base);
     }
-    
     .tw-root--theme-light body {
       background-color: var(--ctp-base);
     }  
-    
     .tw-root--theme-dark .carousel-metadata {
       background: var(--ctp-crust);
     }
-    
     .tw-root--theme-dark .carousel-metadata--fadeout {
       background: var(--ctp-crust);
     }
-    
     .tw-root--theme-light .carousel-metadata {
       background: var(--ctp-crust);
     }
-    
     .tw-root--theme-light .carousel-metadata--fadeout {
       background: var(--ctp-crust);
     }
-    
     .chat-scrollable-area__message-container {
       background-color: var(--ctp-mantle);
     }
-
     .jmUA-dj {
       background-color: var(--ctp-mantle);
     }
-    
     .gzYMLv {
       color: var(--ctp-text);
     }
-    
     .igzOaC {
       color: var(--ctp-text);
     }
-    
     .footer {
         background: var(--ctp-crust);
     }
-    
-    .tw-root--theme-dark, :root .tw-root--theme-light, :root {
+    .tw-root--theme-dark .whispers-list-item--selected, .tw-root--theme-dark .whispers-list-item:hover {
+      background-color: var(--ctp-surface0);
+    }
+    .tw-root--theme-light .whispers-list-item--selected, .tw-root--theme-light .whispers-list-item:hover {
+      background-color: var(--ctp-surface0);
+    }
+    .tw-root--theme-dark .thread-header__title-bar-container--focused {
+      background-color: var(--ctp-mantle);
+    }
+    .tw-root--theme-light .thread-header__title-bar-container--focused {
+      background-color: var(--ctp-mantle);
+    }
+    .tw-root--theme-dark .thread-header__title-bar-container {
+      background: var(--ctp-mantle);
+    }
+    .tw-root--theme-light .thread-header__title-bar-container {
+      background: var(--ctp-mantle);    
+    }
+    .tw-root--theme-dark .thread-header__click-area:focus .thread-header__title-bar-container {
+      background-color: var(--ctp-mantle);
+    }
+    .tw-root--theme-light .thread-header__click-area:focus .thread-header__title-bar-container {
+      background-color: var(--ctp-mantle);
+    }
+    .tw-root--theme-dark, :root .tw-root--theme-light, :root .side-nav-card__link:hover {
+        --color-background-input-focus: var(--ctp-crust)
+        --color-background-interactable-hover: var(--ctp-surface0);
         --color-background-button-text-default: var(--ctp-crust);
         --color-background-float: var(--ctp-crust);
         --color-text-input-placeholder: var(--ctp-text);
         --color-border-input: var(--ctp-base);
+        --color-text-button-primary: var(--ctp-crust);
+        --color-text-overlay: var(--ctp-crust);
         --color-text-base: var(--ctp-subtext1);
         --color-text-alt: var(--ctp-subtext1);
         --color-text-alt-2: var(--ctp-text);
@@ -340,5 +350,13 @@
         --color-venmo: var(--ctp-blue);
         --color-vk: var(--ctp-blue);
         --color-amazon: var(--ctp-yellow);
+        background: var(--ctp-surface0);
+        --color-background-button-text-hover: var(--ctp-surface0);
+    }
+    .simplebar-content {
+      background-color: var(--ctp-mantle);
+    }
+    .scrollable-area--suppress-scroll-x > .simplebar-scroll-content, .scrollable-area--suppress-scroll-x > .simplebar-scroll-content > .simplebar-content {
+      background-color: var(--ctp-base);
     }
 }
