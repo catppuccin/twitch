@@ -6,10 +6,10 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/twitch/stargazers"><img src="https://img.shields.io/github/stars/mustafakhalaf-git/twitch?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/twitch/issues"><img src="https://img.shields.io/github/issues/mustafakhalaf-git/twitch?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/twitch/contributors"><img src="https://img.shields.io/github/contributors/mustafakhalaf-git/twitch?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
-  <a href="https://raw.githubusercontent.com/mustafakhalaf-git/twitch/main/src/TwitchCatppuccin.user.css"><img src="https://img.shields.io/badge/stylus-install-cba6f7?colorA=363a4f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/twitch/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/twitch?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/twitch/issues"><img src="https://img.shields.io/github/issues/catppuccin/twitch?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/twitch/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/twitch?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+  <a href="https://raw.githubusercontent.com/catppuccin/twitch/main/src/TwitchCatppuccin.user.css"><img src="https://img.shields.io/badge/stylus-install-cba6f7?colorA=363a4f&style=for-the-badge"></a>
 </p>
 
 <p align="center">
