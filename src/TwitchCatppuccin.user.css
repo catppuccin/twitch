@@ -1,19 +1,18 @@
 /* ==UserStyle==
 @name Twitch Catppuccin
 @namespace      github.com/catppuccin/twitch
-@homepageURL https://github.com/catppuccin/twitch
+@homepageURL    https://github.com/catppuccin/twitch
 @version        1.0.1
 @description    Soothing pastel theme for Twitch
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
-@updateURL https://github.com/catppuccin/twitch/raw/main/src/TwitchCatppuccin.user.css
-@license GNU-V3.0
+@updateURL      https://github.com/catppuccin/twitch/raw/main/src/TwitchCatppuccin.user.css
+@license        GNU-V3.0
 
 @var select lighttheme "Light Variant" ["Latte*"]
 @var select darktheme "Dark Variant" ["Frappe", "Macchiato", "Mocha*"]
 ==/UserStyle== */
-
-@-moz-document domain("twitch.tv") {
+@-moz-document domai`n("twitch.tv") {
     colourscheme(flavour) {
         if (flavour=="Latte") {
             --ctp-rosewater: #dc8a78;
@@ -353,10 +352,12 @@
         background: var(--ctp-surface0);
         --color-background-button-text-hover: var(--ctp-surface0);
     }
+}
+@-moz-document domain("dashboard.twitch.tv") {
     .simplebar-content {
-      background-color: var(--ctp-mantle);
+        background-color: var(--ctp-mantle);
     }
     .scrollable-area--suppress-scroll-x > .simplebar-scroll-content, .scrollable-area--suppress-scroll-x > .simplebar-scroll-content > .simplebar-content {
-      background-color: var(--ctp-base);
+        background-color: var(--ctp-base);
     }
 }
