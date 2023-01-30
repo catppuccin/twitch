@@ -9,8 +9,8 @@
 @updateURL https://github.com/catppuccin/twitch/raw/main/src/TwitchCatppuccin.user.css
 @license GNU-V3.0
 
-@var select lighttheme "Light Variant" ["Latte*", "Frappe", "Macchiato", "Mocha"]
-@var select darktheme "Dark Variant" ["Latte", "Frappe", "Macchiato", "Mocha*"]
+@var select lighttheme "Light Variant" ["Latte*"]
+@var select darktheme "Dark Variant" ["Frappe", "Macchiato", "Mocha*"]
 ==/UserStyle== */
 
 @-moz-document domain("twitch.tv") {
