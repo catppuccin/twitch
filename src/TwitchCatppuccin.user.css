@@ -12,7 +12,7 @@
 @var select lighttheme "Light Variant" ["Latte*"]
 @var select darktheme "Dark Variant" ["Frappe", "Macchiato", "Mocha*"]
 ==/UserStyle== */
-@-moz-document domai`n("twitch.tv") {
+@-moz-document domain("twitch.tv") {
     colourscheme(flavour) {
         if (flavour=="Latte") {
             --ctp-rosewater: #dc8a78;
