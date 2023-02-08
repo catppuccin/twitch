@@ -186,8 +186,8 @@
       color: var(--ctp-text);
     }
     .bEHknf {
-      background: var(--ctp-mantle)
-      color: var(--ctp-text)
+      background: var(--ctp-mantle);
+      color: var(--ctp-text);
     }
     .footer {
         background: var(--ctp-crust);
