@@ -2,7 +2,7 @@
 @name Twitch Catppuccin
 @namespace      github.com/catppuccin/twitch
 @homepageURL    https://github.com/catppuccin/twitch
-@version        1.0.1
+@version        1.0.2
 @description    Soothing pastel theme for Twitch
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   stylus
@@ -169,6 +169,15 @@
     }
     .gzYMLv {
       color: var(--ctp-text);
+    }
+    .gZxBHd {
+      color: #fff;
+    }
+    .bTJhJp {
+      color: #fff;
+    }
+    .ffZeRf {
+      color: #fff !important;
     }
     .igzOaC {
       color: var(--ctp-text);
