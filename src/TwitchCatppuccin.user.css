@@ -364,7 +364,7 @@
         --color-venmo: var(--ctp-blue);
         --color-vk: var(--ctp-blue);
         --color-amazon: var(--ctp-yellow);
-        background: var(--ctp-surface0);
+        //background: var(--ctp-surface0);
         --color-background-button-text-hover: var(--ctp-surface0);
     }
 }
