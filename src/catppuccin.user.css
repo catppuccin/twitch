@@ -1,3 +1,17 @@
+/* ==UserStyle==
+@name           Twitch Catppuccin
+@namespace      github.com/catppuccin/twitch
+@homepageURL    https://github.com/catppuccin/twitch
+@version        1.0.5
+@description    Soothing pastel theme for Twitch
+@author         Catppuccin - mustafakhalaf-git
+@preprocessor   less
+@updateURL      https://github.com/catppuccin/twitch/raw/main/catppuccin.user.css
+@license        GNU-V3.0
+
+@var select lightTheme "Light Variant" ["latte:Latte"]
+@var select darkTheme "Dark Variant" ["frappe:Frappe", "macchiato:Macchiato", "mocha:Mocha"]
+==/UserStyle== */
 @-moz-document domain("twitch.tv") {
 
     @catppuccin: {
