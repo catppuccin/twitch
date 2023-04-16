@@ -20,25 +20,25 @@
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/twitch/main/assets/latte.png"/>
+<img src="https://raw.githubusercontent.com/catppuccin/twitch/main/assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/twitch/main/assets/frappe.png"/>
+<img src="https://raw.githubusercontent.com/catppuccin/twitch/main/assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/twitch/main/assets/macchiato.png"/>
+<img src="https://raw.githubusercontent.com/catppuccin/twitch/main/assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/twitch/main/assets/mocha.png"/>
+<img src="https://raw.githubusercontent.com/catppuccin/twitch/main/assets/mocha.webp"/>
 </details>
 
 ## Usage
 
 1. Install Stylus extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)
-2. Then install with Stylus ([click on the link](https://raw.githubusercontent.com/catppuccin/twitch/main/src/TwitchCatppuccin.user.css)):
+2. Then install with Stylus ([click on the link](https://raw.githubusercontent.com/catppuccin/twitch/main/src/catppuccin.user.css)):
 3. Choose Your accent color by Setting Theme in Stylus Options
 
 NOTE: for latte to work correctly, it's better to use light theme
