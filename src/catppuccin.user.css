@@ -6,7 +6,7 @@
 @description    Soothing pastel theme for Twitch
 @author         Catppuccin - mustafakhalaf-git
 @preprocessor   less
-@updateURL      raw.githubusercontent.com/catppuccin/twitch/main/src/catppuccin.user.css
+@updateURL      https://raw.githubusercontent.com/catppuccin/twitch/main/src/catppuccin.user.css
 @license        GNU-V3.0
 
 @var select lightTheme "Light Variant" ["latte:Latte"]
