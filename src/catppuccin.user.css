@@ -210,6 +210,9 @@
         .dDyYOA {
             color: #fff !important;
         }
+        .navigation-link__active-indicator {
+            background-color: @@accent !important;
+        }
         .footer {
             background: @crust;
         }
