@@ -238,7 +238,7 @@
             --color-text-input-placeholder: @text;
             --color-border-input: @base;
             --color-text-button-primary: @crust;
-            --color-text-overlay: @crust;
+            --color-text-overlay: @text;
             --color-text-base: @subtext1;
             --color-text-alt: @subtext1;
             --color-text-alt-2: @text;
