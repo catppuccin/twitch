@@ -11,6 +11,7 @@
 
 @var select lightTheme "Light Variant" ["latte:Latte"]
 @var select darkTheme "Dark Variant" ["frappe:Frappe", "macchiato:Macchiato", "mocha:Mocha"]
+@var select accentColour  "Accent" ["rosewater:Rosewater", "flamingo:Flamingo", "pink:Pink", "mauve:Mauve", "red:Red*", "maroon:Maroon", "peach:Peach", "yellow:Yellow", "green:Green", "teal:Teal", "blue:Blue", "sapphire:Sapphire", "sky:Sky", "lavender:Lavender", "subtext0:Grey"]
 ==/UserStyle== */
 @-moz-document domain("twitch.tv") {
 
@@ -130,13 +131,13 @@
     }
 
     .tw-root--theme-dark {
-        #catppuccin(@darkTheme);
+        #catppuccin(@darkTheme, @accentColour);
     }
     .tw-root--theme-light {
-        #catppuccin(@lightTheme);
+        #catppuccin(@lightTheme, @accentColour);
     }
 
-    #catppuccin(@lookup) {
+    #catppuccin(@lookup, @accent) {
         @rosewater: @catppuccin[@@lookup][@rosewater];
         @flamingo: @catppuccin[@@lookup][@flamingo];
         @pink: @catppuccin[@@lookup][@pink];
@@ -163,6 +164,7 @@
         @base: @catppuccin[@@lookup][@base];
         @mantle: @catppuccin[@@lookup][@mantle];
         @crust: @catppuccin[@@lookup][@crust];
+        @accent-colour: @catppuccin[@@lookup][@@accent];
 
         & body {
             background-color: @base;
@@ -285,17 +287,17 @@
             --color-warn: @yellow;
             --color-success: @green;
             --color-info: @blue;
-            --color-accent: @mauve;
-            --color-twitch-purple: @mauve;
-            --color-twitch-purple-4: @mauve;
-            --color-twitch-purple-5: @mauve;
-            --color-twitch-purple-6: @mauve;
-            --color-twitch-purple-7: @mauve;
-            --color-twitch-purple-8: @mauve;
-            --color-twitch-purple-9: @mauve;
-            --color-twitch-purple-10: @mauve;
-            --color-twitch-purple-11: @mauve;
-            --color-twitch-purple-12: @mauve;
+            --color-accent: @accent-colour;
+            --color-twitch-purple: @accent-colour;
+            --color-twitch-purple-4: @accent-colour;
+            --color-twitch-purple-5: @accent-colour;
+            --color-twitch-purple-6: @accent-colour;
+            --color-twitch-purple-7: @accent-colour;
+            --color-twitch-purple-8: @accent-colour;
+            --color-twitch-purple-9: @accent-colour;
+            --color-twitch-purple-10: @accent-colour;
+            --color-twitch-purple-11: @accent-colour;
+            --color-twitch-purple-12: @accent-colour;
             --color-orange-7: @yellow;
             --color-orange-8: @yellow;
             --color-orange-9: @yellow;
