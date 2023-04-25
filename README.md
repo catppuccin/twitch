@@ -48,6 +48,7 @@ NOTE: for latte to work correctly, it's better to use light theme
 - [mustafakhalaf-git](https://github.com/mustafakhalaf-git)
 - [mvilk](https://github.com/mvilk)
 - [isabelroses](https://github.com/isabelroses)
+- [emilys314](https://gitHub.com/emilys314)
 
 &nbsp;
 
