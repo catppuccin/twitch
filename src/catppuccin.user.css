@@ -176,7 +176,11 @@
         & .carousel-metadata--fadeout {
             background: @crust;
         }
-
+        .chat-line__message-body--highlighted {
+            background-color: @accent-colour;
+            color: @crust;
+            border-color: @accent-colour;
+        }
         .chat-scrollable-area__message-container {
             background-color: @mantle;
         }
