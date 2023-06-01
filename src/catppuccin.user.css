@@ -194,9 +194,9 @@
             color: @text;
         }
         .gZxBHd {
-            color: #fff;
+            color: @subtext0;
             &:hover {
-                color: #fff;
+              color: @accent-colour;
             }
         }
         .bTJhJp {
