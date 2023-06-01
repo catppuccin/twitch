@@ -217,7 +217,7 @@
             color: #fff !important;
         }
         .navigation-link__active-indicator {
-            background-color: @@accent !important;
+          background-color: @accent-colour !important;
         }
         .footer {
             background: @crust;
