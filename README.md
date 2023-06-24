@@ -45,7 +45,7 @@ NOTE: for latte to work correctly, it's better to use light theme
 
 ## 💝 Thanks to
 
-- [mustafakhalaf-git](https://github.com/mustafakhalaf-git)
+- [GitMuslim](https://github.com/GitMuslim)
 - [mvilk](https://github.com/mvilk)
 - [isabelroses](https://github.com/isabelroses)
 - [emilys314](https://gitHub.com/emilys314)
